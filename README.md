@@ -3,4 +3,5 @@ This script slices two .wav files into windows and reconstructs the first file b
 
 # Usage
 This script depends on librosa.  I recommend creating a venv in a dedicated folder to avoid risking your OS.
+
 `python wavmatchsynthesisstereo.py file1.wav file2.wav window-size-in-samples output-file`
